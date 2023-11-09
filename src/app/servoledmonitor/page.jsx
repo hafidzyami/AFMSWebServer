@@ -58,6 +58,7 @@ function servoLedMonitor() {
                     width={320}
                     height={320}
                     className='card-img-top py-3 px-3'
+                    alt='servo'
                 />
                 <div className="card-body">
                     <h5 className="card-title">Servo Motor</h5>
@@ -74,6 +75,7 @@ function servoLedMonitor() {
                     width={320}
                     height={320}
                     className='card-img-top py-3 px-3'
+                    alt='led'
                 />
                 <div className="card-body">
                     <h5 className="card-title">LED</h5>
