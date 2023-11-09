@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 
-const page = () => {
+const PestMonitor = () => {
   const [images, setImages] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const containerName = "esp32cam";
@@ -105,4 +105,4 @@ const page = () => {
   );
 }
 
-export default page
+export default PestMonitor
