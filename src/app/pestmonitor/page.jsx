@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 
-function page() {
+function pestMonitor() {
   const [images, setImages] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const containerName = "esp32cam";
@@ -105,4 +105,4 @@ function page() {
   );
 }
 
-export default page;
+export default pestMonitor;
