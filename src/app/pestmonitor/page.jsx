@@ -1,10 +1,10 @@
 "use client";
 import { BlobServiceClient } from "@azure/storage-blob";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 
-function pestMonitor() {
+const page = () => {
   const [images, setImages] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const containerName = "esp32cam";
@@ -105,4 +105,4 @@ function pestMonitor() {
   );
 }
 
-export default pestMonitor;
+export default page

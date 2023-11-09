@@ -13,9 +13,8 @@ import Footer from '../../../components/Footer'
 const socket = socketIOClient('http://hafidziot.hrbvbrbgevfmaphx.southeastasia.azurecontainer.io:3001');
 
 
-function servoLedMonitor() {
-
-    const [LEDDuration, setLEDDuration] = useState();
+const page = () => {
+  const [LEDDuration, setLEDDuration] = useState();
     const [LEDStatus, setLEDStatus] = useState(false);
     const [servoDuration, setServoDuration] = useState();
     const [servoStatus, setServoStatus] = useState(false);
@@ -91,4 +90,4 @@ function servoLedMonitor() {
   )
 }
 
-export default servoLedMonitor
+export default page
