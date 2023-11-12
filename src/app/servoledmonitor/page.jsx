@@ -50,7 +50,7 @@ const ServoLedMonitor = () => {
         <Navbar/>
         <h2 className='text-center mt-3'>Servo Monitoring</h2>
         <div className='row d-flex justify-content-center mt-5'>
-            <div className='col-lg-3 col-md-3 mb-4 mx-5'>
+            <div className='col-lg-3 col-md-6 col-sm-6 mb-4 mx-5'>
             <div className="card">
                 <Image
                     src={servoStatus == true ? servoMotorActive : servoMotor}
@@ -67,7 +67,7 @@ const ServoLedMonitor = () => {
                 </div>
               </div>
             </div>
-            <div className='col-lg-3 col-md-3 mb-4 mx-5'>
+            <div className='col-lg-3 col-md-6 col-sm-6 mb-4 mx-5'>
             <div className="card">
                 <Image
                     src={LEDStatus == true ? ledActive : ledpin}

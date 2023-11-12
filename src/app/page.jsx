@@ -125,16 +125,16 @@ const Home = () => {
       {/* Navbar */}
       <Navbar/>
       {/* End Navbar */}
-      <h2 className="mt-3 text-center">Automatic Farming Management System</h2>
+      <h3 className="mt-4 mb-5 text-center">Automatic Farming Management System</h3>
       {isLoading ? (
         <p>Loading...</p>
       ) : error ? (
         <p>Error: {error}</p>
       ) : (
         <div>
-          <h2>Prakiraan Cuaca Ngawi:</h2>
+          <h4 className="mt-3 mb-4">Prakiraan Cuaca Ngawi:</h4>
 
-          <div className="row">
+          <div className="row mt-3">
             {tempData.map((tempValue, index) => (
               <div key={index} className="col-lg-4 col-md-6 mb-4">
                 <div className="card">
