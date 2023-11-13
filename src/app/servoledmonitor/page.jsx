@@ -10,7 +10,7 @@ import Image from 'next/image'
 import socketIOClient from 'socket.io-client';
 import Footer from '../../../components/Footer'
 
-const socket = socketIOClient('http://hafidziot.hrbvbrbgevfmaphx.southeastasia.azurecontainer.io:3001');
+const socket = socketIOClient('https://hafidzsocketiot.azurewebsites.net');
 
 
 const ServoLedMonitor = () => {
